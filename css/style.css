@@ -1,0 +1,196 @@
+/*-------- ОБЩИЕ СТИЛИ-------- */
+
+body {
+    font-family: 'Jost';
+    font-family: 'Metrophobic';
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+}
+
+.container {
+    max-width: 1230;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+p {
+    color: #E3E3E3;
+    line-height: 14px;
+}
+
+.title {
+    margin-bottom: 0;
+    font-family:'Metrophobic' ;
+    font-size: 110px;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    color: #191919;
+}   
+.subtitle {
+    font-family:'Metrophobic';
+    font-size: 40px;
+    line-height: 100%;
+    color: #E3E3E3;
+   
+}
+
+/* -----------HEADER----------- */
+
+.header {
+    padding: 25px 0;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: cen;
+    
+}
+
+.logo {
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav li + li {
+    margin-left: 40px;
+}
+
+.header__nav a {
+    font-size: 18px;
+   color: #E3E3E3;
+   transition: color 0.3s;
+} 
+
+.header__nav a:hover {
+    color: #66adec;
+}
+
+.header__nav a:active {
+    color: #0062b6;
+}
+
+/*------------MAIN------------- */
+
+.main {
+    
+}
+
+
+
+/*------------- WELCOME-------------- */
+
+.welcome {
+    min-height: 900px;
+    height: 100vh;
+    padding: 250px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #E3E3E3; */
+    text-align: center;
+    /* background-color: #282936; */
+    background-image: url("img/moto 1.png");
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.welcome__heading {
+   
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 34px;
+    align: Left;
+    vertical-align: top;
+    height: 68px;
+    width: 542px;
+    line-height: 140%;
+}
+
+.welcome__links {
+}
+
+.link-pro {
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 26px;
+    align: center;
+    vertical-align: top;
+    letter-spacing: 2,5%;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.4);
+    color: #E3E3E3;
+    padding: 1.2rem 3.2rem;
+    border-radius: 3px;
+}
+
+.linc-A {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+
+    font-size: 18px;
+    line-height: 26px;
+    align: center;
+   
+    background:rgba(0, 0, 0, 0.4);
+    color: #E3E3E3;
+    
+    border-radius: 3px;
+}
+
+.linc-primary {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+
+    font-size: 18px;
+    line-height: 26px;
+
+    background: #FCD702;
+    color: #000;
+   
+    border-radius: 3px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.linc-primary:hover {
+    background-color: rgba(247, 213, 21, 0.5);
+    border-color: rgba(247, 213, 21, 0.7);
+}
+
+.linc-primary:active {
+    background-color: rgba(208, 177, 7, 0.5);
+    border-color: rgba(208, 177, 7, 0.7);
+}
+
+
+
+/*------------- about---------- */
+.about {
+    background-color:#000;
+    text-align: center; 
+
+}
+.common-section {
+    text-align: center;
+    padding: 10px 0;
+}
+.container {
+}
+.title-wrapper {
+}
+
+.cards-wrapper {
+}
+.card {
+}
